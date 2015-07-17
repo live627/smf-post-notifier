@@ -1,5 +1,5 @@
 <?php
-// Version: 1.0: PostNotifier.php
+// Version: 1.0.1: PostNotifier.php
 // Licence: MIT
 
 if (!defined('SMF'))
