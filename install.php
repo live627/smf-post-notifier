@@ -1,4 +1,5 @@
 <?php
+// Licence: MIT
 
 if (file_exists(dirname(__FILE__) . '/SSI.php') && !defined('SMF'))
 {
@@ -14,5 +15,3 @@ add_integration_function('integrate_load_theme', 'post_notifier_load_theme');
 
 if (!empty($ssi))
 	echo 'Database installation complete!';
-
-?>
