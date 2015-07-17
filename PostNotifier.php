@@ -1,5 +1,6 @@
  <?php
 // Version: 1.0: PostNotifier.php
+// Licence: MIT
 
 if (!defined('SMF'))
 	die('Hacking attempt...');
@@ -84,5 +85,3 @@ function template_post_notifier_above()
 }
 
 function template_post_notifier_below() {}
-
-?>
