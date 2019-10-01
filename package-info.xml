@@ -11,6 +11,8 @@
 		<modification>install.xml</modification>
 		<require-file name="PostNotifier.php" destination="$sourcedir" />
 		<require-file name="PostNotifier.english.php" destination="$languagedir" />
+		<require-file name="PostNotifier.russian.php" destination="$languagedir" />
+		<require-file name="PostNotifier.russian-utf8.php" destination="$languagedir" />
 		<require-file name="postnotifier.css" destination="$themedir/css" />
 		<require-file name="postnotifier.js" destination="$themedir/scripts" />
 	</install>
@@ -20,6 +22,8 @@
 		<modification reverse="true">install.xml</modification>
 		<remove-file name="$sourcedir/PostNotifier.php" />
 		<remove-file name="$languagedir/PostNotifier.english.php" />
+		<remove-file name="$languagedir/PostNotifier.russian.php" />
+		<remove-file name="$languagedir/PostNotifier.russian-utf8.php" />
 		<remove-file name="$themedir/css/postnotifier.css" />
 		<remove-file name="$themedir/scripts/postnotifier.js" />
 	</uninstall>
